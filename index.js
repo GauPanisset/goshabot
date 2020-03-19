@@ -15,11 +15,7 @@ module.exports = (req, res) => {
       icon_emoji: ':brain:',
     }
 
-    bot.postMessageToUser(
-      'gaupanisset',
-      `Try to connect... zzzZZZzz with ${randomChoice() ||
-        'Bop-pilib-bip'} and ${randomChoice() || 'Bop-pilib-bip'}`
-    )
+    bot.postMessageToUser('gaupanisset', `Try to connect... zzzZZZzz`)
   })
 
   /**
